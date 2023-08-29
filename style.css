@@ -1,0 +1,29 @@
+body
+{
+    background-image: linear-gradient(to right top, rgb(0, 125, 163), blue ,black , blue, rgb(0, 125, 163));
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+#show_sketch
+{
+float: right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: h;
+    animation-duration: 8s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes h {
+    0%{box-shadow: 1px 1px 350px rgb(0, 83, 109);}
+    25%{box-shadow: 1px 1px 350px rgb(0, 0, 146);}
+    50%{box-shadow: 1px 1px 350px black;}
+    75%{box-shadow: 1px 1px 350px rgb(0, 0, 146);}
+    100%{box-shadow: 1px 1px 350px rgb(0, 83, 109);}
+}
